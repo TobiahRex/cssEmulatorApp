@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
-    <script src="main.js" charset="utf-8"></script>
-    <title>CSS Emulator</title>
-  </head>
-  <body>
-    <h1>yo yo</h1>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/vendors/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="assets/vendors/bootstrap-theme.min.css" media="screen" title="no title" charset="utf-8">
+  <link rel="stylesheet" href="style.css" media="screen" title="no title" charset="utf-8">
+
+  <script src="assets/vendors/jquery.min.js" charset="utf-8"></script>
+  <script src="assets/vendors/bootstrap.min.js" charset="utf-8"></script>
+  <script src="main.js" charset="utf-8"></script>
+  <title>CSS Emulator</title>
+</head>
+<body>
+  <header class='navbar navbar-static-top'>
+    <nav class="container" role="navigation">
+      <div class="navbar-header navbar-right">
+
+        <ul class="nav navbar-nav">
+          <li><a href="#">Gmail</a></li>
+          <li><a href="#">Images</a></li>
+          <li><a href="#"><img class='grid' src="assets/trans.png" alt=""></a></li>
+          <li><a href="#"><img class='bell' src="assets/trans.png" alt=""></a></li>
+          <li><a href="#"><img class='letter' src="assets/trans.png" alt=""></a></li>
+        </ul>
+
+
+
+      </div>
+    </nav>
+  </header>
+
+  <div class="center-page row">
+    <img class="logo" src="assets/trans.png" alt="" />
+    <div class="row">
+      <div class='search-input'>
+        <input class='search-field' type="text" name="name" value="">
+        <img class='google-mic pull-right' src="assets/google-mic.png" alt="" />
+      <br>
+      <div class="center-btns row">
+        <button class="btn btn-default">
+          Google Search
+        </button>
+        <button class="btn btn-default">
+          I'm Feeling Lucky
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class='footer'>
+    <nav role="navigation">
+      <div class="navbar-footer row">
+
+        <ul class="nav navbar-nav left-side">
+          <li><a href="#">Advertising</a></li>
+          <li><a href="#">Business</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+
+        <ul class="nav navbar-nav right-side pull-right">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Settings</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</body>
 </html>
