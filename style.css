@@ -81,6 +81,14 @@ div.search-input {
     margin-left: 15px;
 }
 
+div.search-input:hover {
+    width: 500px;
+    height: 40px;
+    border: 1px solid #3a36ff;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
 div.center-btns.row {
       margin-left: 130px;
       width: 300px;
@@ -120,6 +128,7 @@ input.search-field {
 }
 
 input.search-field:focus {
+    outline: 0;
     height: 34px;
     width: 470px;
     border: none;
